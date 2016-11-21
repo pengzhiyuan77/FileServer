@@ -1,0 +1,768 @@
+2016-07-08 18:11:23 141-[main]-[INFO ]-[FileShareRun.main(FileShareRun.java:59)]-file share main starting....
+2016-07-08 18:11:23 365-[main]-[DEBUG]-[StandardEnvironment.addLast(MutablePropertySources.java:110)]-Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-08 18:11:23 368-[main]-[DEBUG]-[StandardEnvironment.addLast(MutablePropertySources.java:110)]-Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-08 18:11:23 369-[main]-[DEBUG]-[StandardEnvironment.<init>(AbstractEnvironment.java:126)]-Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-08 18:11:23 426-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:242)]-JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-07-08 18:11:23 429-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:250)]-JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2016-07-08 18:11:23 478-[main]-[INFO ]-[AnnotationConfigApplicationContext.prepareRefresh(AbstractApplicationContext.java:513)]-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@258b678c: startup date [Fri Jul 08 18:11:23 CST 2016]; root of context hierarchy
+2016-07-08 18:11:23 478-[main]-[DEBUG]-[AnnotationConfigApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:543)]-Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@258b678c: org.springframework.beans.factory.support.DefaultListableBeanFactory@11cdf8a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig]; root of factory hierarchy
+2016-07-08 18:11:23 960-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-07-08 18:11:23 960-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-07-08 18:11:23 989-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:23 992-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-07-08 18:11:24 042-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'FileServer_Home' in [systemProperties]
+2016-07-08 18:11:24 043-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'FileServer_Home' in [systemProperties] with type [String] and value 'target\FileServer'
+2016-07-08 18:11:24 095-[main]-[DEBUG]-[StandardEnvironment.addLast(MutablePropertySources.java:110)]-Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-08 18:11:24 095-[main]-[DEBUG]-[StandardEnvironment.addLast(MutablePropertySources.java:110)]-Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-08 18:11:24 097-[main]-[DEBUG]-[StandardEnvironment.<init>(AbstractEnvironment.java:126)]-Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-08 18:11:24 097-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:242)]-JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-07-08 18:11:24 098-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:250)]-JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2016-07-08 18:11:24 101-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doFindMatchingFileSystemResources(PathMatchingResourcePatternResolver.java:556)]-Looking for matching resources in directory tree [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare]
+2016-07-08 18:11:24 101-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 104-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 107-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\cache] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 108-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\config] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 109-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\conn] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 110-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\event] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 111-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\exception] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 137-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 138-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 139-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 140-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 142-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 143-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 144-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.doRetrieveMatchingFiles(PathMatchingResourcePatternResolver.java:618)]-Searching directory [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util] for files matching pattern [E:/pengzhiyuan/dev/git/ims/Odin-Ims/filesharing/src/FileServer/target/classes/com/yealink/ims/fileshare/**/*.class]
+2016-07-08 18:11:24 154-[main]-[DEBUG]-[PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:357)]-Resolved location pattern [classpath*:com/yealink/ims/fileshare/**/*.class] to resources [file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\AuthDealer$1$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\AuthDealer$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\AuthDealer.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\ByteBufBuilder.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileDealerProcess$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileDealerProcess.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileDealerProcessManager.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileServerProtocalHandler$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileServerProtocalHandler.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\IDealer.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\RequestFileDealer$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\RequestFileDealer.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\ServerRequestFileDealer.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\cache\FileShareCacheManager.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\config\ApplicationConfig.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\config\FileShareNettyConfig.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\conn\Connection.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\conn\ConnectionManager.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\event\EventType.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\event\FsMsg.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\exception\FileShareException.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler\FileShareChannelInit.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler\FileShareInboundHandler.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler\TransforDecoder.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler\TransforEncoder.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of\FileServerStateManager.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of\FileShareEventHandler.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of\FileShareEventOperation.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of\FileSystemMsgService.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileServerStartNotify.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileServerStopNotify.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileShareApplicationContextUtil.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileShareRun.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileSystemService.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileServerMonitor.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileShareBootstrap.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileShareRestServer$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileShareRestServer.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store\DefaultFileStore.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store\FtpClientManager.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store\FtpFileStore.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store\IFileStore.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test\ClineDecoder.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test\SimpleChanneHandler$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test\SimpleChanneHandler.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test\TestClient$1.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\test\TestClient.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\AESUtil.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\ByteUtil.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\CommonUtil.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\FileShareConstant.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\FileShareThreadExecutor.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\MD5Util.class], file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\util\XmppDateUtil.class]]
+2016-07-08 18:11:24 183-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\busi\FileDealerProcessManager.class]
+2016-07-08 18:11:24 188-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\cache\FileShareCacheManager.class]
+2016-07-08 18:11:24 193-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\config\FileShareNettyConfig.class]
+2016-07-08 18:11:24 196-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\handler\FileShareChannelInit.class]
+2016-07-08 18:11:24 200-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\of\FileShareEventHandler.class]
+2016-07-08 18:11:24 201-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileServerStartNotify.class]
+2016-07-08 18:11:24 202-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileServerStopNotify.class]
+2016-07-08 18:11:24 202-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileShareApplicationContextUtil.class]
+2016-07-08 18:11:24 203-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\run\FileSystemService.class]
+2016-07-08 18:11:24 212-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileShareBootstrap.class]
+2016-07-08 18:11:24 213-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\server\FileShareRestServer.class]
+2016-07-08 18:11:24 215-[main]-[DEBUG]-[ClassPathBeanDefinitionScanner.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:284)]-Identified candidate component class: file [E:\pengzhiyuan\dev\git\ims\Odin-Ims\filesharing\src\FileServer\target\classes\com\yealink\ims\fileshare\store\FtpClientManager.class]
+2016-07-08 18:11:24 553-[main]-[DEBUG]-[StandardEnvironment.addLast(MutablePropertySources.java:110)]-Adding [URL [file:target/FileServer/config/application.properties]] PropertySource with lowest search precedence
+2016-07-08 18:11:24 562-[main]-[DEBUG]-[ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:248)]-Registering bean definition for @Bean method com.yealink.ims.fileshare.config.FileShareNettyConfig.serverBootstrap()
+2016-07-08 18:11:24 563-[main]-[DEBUG]-[ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:248)]-Registering bean definition for @Bean method com.yealink.ims.fileshare.config.FileShareNettyConfig.boss()
+2016-07-08 18:11:24 563-[main]-[DEBUG]-[ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:248)]-Registering bean definition for @Bean method com.yealink.ims.fileshare.config.FileShareNettyConfig.tcpWorker()
+2016-07-08 18:11:24 564-[main]-[DEBUG]-[ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:248)]-Registering bean definition for @Bean method com.yealink.ims.fileshare.config.ApplicationConfig.propertySourcesPlaceholderConfigurer()
+2016-07-08 18:11:24 729-[main]-[DEBUG]-[ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:102)]-Successfully enhanced com.yealink.ims.fileshare.config.ApplicationConfig; enhanced class name is: com.yealink.ims.fileshare.config.ApplicationConfig$$EnhancerBySpringCGLIB$$9164b7be
+2016-07-08 18:11:24 730-[main]-[DEBUG]-[ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:377)]-Replacing bean definition 'applicationConfig' existing class name 'com.yealink.ims.fileshare.config.ApplicationConfig' with enhanced class name 'com.yealink.ims.fileshare.config.ApplicationConfig$$EnhancerBySpringCGLIB$$9164b7be'
+2016-07-08 18:11:24 740-[main]-[DEBUG]-[ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:102)]-Successfully enhanced com.yealink.ims.fileshare.config.FileShareNettyConfig; enhanced class name is: com.yealink.ims.fileshare.config.FileShareNettyConfig$$EnhancerBySpringCGLIB$$93645319
+2016-07-08 18:11:24 740-[main]-[DEBUG]-[ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:377)]-Replacing bean definition 'fileShareNettyConfig' existing class name 'com.yealink.ims.fileshare.config.FileShareNettyConfig' with enhanced class name 'com.yealink.ims.fileshare.config.FileShareNettyConfig$$EnhancerBySpringCGLIB$$93645319'
+2016-07-08 18:11:24 745-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2016-07-08 18:11:24 745-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2016-07-08 18:11:24 748-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'applicationConfig'
+2016-07-08 18:11:24 748-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'applicationConfig'
+2016-07-08 18:11:24 748-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'applicationConfig' to allow for resolving potential circular references
+2016-07-08 18:11:24 749-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'applicationConfig'
+2016-07-08 18:11:24 756-[main]-[WARN ]-[ConfigurationClassEnhancer.intercept(ConfigurationClassEnhancer.java:304)]-@Bean method ApplicationConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean Javadoc for complete details
+2016-07-08 18:11:24 774-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'propertySourcesPlaceholderConfigurer' to allow for resolving potential circular references
+2016-07-08 18:11:24 775-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2016-07-08 18:11:24 775-[main]-[DEBUG]-[MutablePropertySources.addLast(MutablePropertySources.java:110)]-Adding [environmentProperties] PropertySource with lowest search precedence
+2016-07-08 18:11:24 775-[main]-[DEBUG]-[MutablePropertySources.addLast(MutablePropertySources.java:110)]-Adding [localProperties] PropertySource with lowest search precedence
+2016-07-08 18:11:24 782-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-07-08 18:11:24 783-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-07-08 18:11:24 784-[main]-[INFO ]-[AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:141)]-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-08 18:11:24 784-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:24 784-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-07-08 18:11:24 784-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-07-08 18:11:24 784-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-07-08 18:11:24 785-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:24 785-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-07-08 18:11:24 785-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-07-08 18:11:24 786-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-07-08 18:11:24 828-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:24 828-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-07-08 18:11:24 829-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-07-08 18:11:24 829-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-07-08 18:11:24 830-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:24 830-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-07-08 18:11:24 830-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-07-08 18:11:24 830-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-07-08 18:11:24 830-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-07-08 18:11:24 831-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-07-08 18:11:24 835-[main]-[DEBUG]-[AnnotationConfigApplicationContext.initMessageSource(AbstractApplicationContext.java:649)]-Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@737c45ee]
+2016-07-08 18:11:24 838-[main]-[DEBUG]-[AnnotationConfigApplicationContext.initApplicationEventMulticaster(AbstractApplicationContext.java:673)]-Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1aa610e]
+2016-07-08 18:11:24 847-[main]-[DEBUG]-[DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:672)]-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11cdf8a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,fileDealerProcessManager,fileShareCacheManager,fileShareNettyConfig,FileShareChannelInit,fileShareEventHandler,fileServerStartNotify,fileServerStopNotify,fileShareApplicationContextUtil,fileSystemService,fileShareBootstrap,fileShareRestServer,ftpClientManager,serverBootstrap,boss,tcpWorker,propertySourcesPlaceholderConfigurer]; root of factory hierarchy
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'applicationConfig'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-07-08 18:11:24 848-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-07-08 18:11:24 849-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileDealerProcessManager'
+2016-07-08 18:11:24 849-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileDealerProcessManager'
+2016-07-08 18:11:24 853-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:205)]-Found init method on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: private void com.yealink.ims.fileshare.busi.FileDealerProcessManager.init()
+2016-07-08 18:11:24 854-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.checkConfigMembers(InitDestroyAnnotationBeanPostProcessor.java:272)]-Registered init method on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@ce15f44
+2016-07-08 18:11:24 862-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.requestSize
+2016-07-08 18:11:24 862-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.fileStoreClass
+2016-07-08 18:11:24 862-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.storeDirPath
+2016-07-08 18:11:24 863-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.isFileEncrypt
+2016-07-08 18:11:24 863-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.busi.FileDealerProcessManager]: AutowiredFieldElement for private com.yealink.ims.fileshare.store.FtpClientManager com.yealink.ims.fileshare.busi.FileDealerProcessManager.ftpClientManager
+2016-07-08 18:11:24 863-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileDealerProcessManager' to allow for resolving potential circular references
+2016-07-08 18:11:24 880-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileDealerProcessManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.requestSize
+2016-07-08 18:11:24 882-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.request.filesize' in [environmentProperties]
+2016-07-08 18:11:24 882-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.request.filesize' in [systemProperties]
+2016-07-08 18:11:24 883-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.request.filesize' in [systemEnvironment]
+2016-07-08 18:11:24 883-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.request.filesize' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 884-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.request.filesize' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '61440'
+2016-07-08 18:11:24 884-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.request.filesize' in [environmentProperties] with type [String] and value '61440'
+2016-07-08 18:11:24 897-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileDealerProcessManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.fileStoreClass
+2016-07-08 18:11:24 898-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.fileStore.class' in [environmentProperties]
+2016-07-08 18:11:24 898-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.fileStore.class' in [systemProperties]
+2016-07-08 18:11:24 898-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.fileStore.class' in [systemEnvironment]
+2016-07-08 18:11:24 899-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.fileStore.class' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 899-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.fileStore.class' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'com.yealink.ims.fileshare.store.DefaultFileStore'
+2016-07-08 18:11:24 899-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.fileStore.class' in [environmentProperties] with type [String] and value 'com.yealink.ims.fileshare.store.DefaultFileStore'
+2016-07-08 18:11:24 900-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileDealerProcessManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.storeDirPath
+2016-07-08 18:11:24 900-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.default.tmp.dir' in [environmentProperties]
+2016-07-08 18:11:24 900-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.default.tmp.dir' in [systemProperties]
+2016-07-08 18:11:24 901-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.default.tmp.dir' in [systemEnvironment]
+2016-07-08 18:11:24 901-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.default.tmp.dir' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 902-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.default.tmp.dir' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'e:/temp/'
+2016-07-08 18:11:24 902-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.default.tmp.dir' in [environmentProperties] with type [String] and value 'e:/temp/'
+2016-07-08 18:11:24 903-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileDealerProcessManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.busi.FileDealerProcessManager.isFileEncrypt
+2016-07-08 18:11:24 903-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.file.isEncrypt' in [environmentProperties]
+2016-07-08 18:11:24 903-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.file.isEncrypt' in [systemProperties]
+2016-07-08 18:11:24 904-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.file.isEncrypt' in [systemEnvironment]
+2016-07-08 18:11:24 904-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.file.isEncrypt' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 904-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.file.isEncrypt' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'true'
+2016-07-08 18:11:24 905-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.file.isEncrypt' in [environmentProperties] with type [String] and value 'true'
+2016-07-08 18:11:24 905-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileDealerProcessManager': AutowiredFieldElement for private com.yealink.ims.fileshare.store.FtpClientManager com.yealink.ims.fileshare.busi.FileDealerProcessManager.ftpClientManager
+2016-07-08 18:11:24 908-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'ftpClientManager'
+2016-07-08 18:11:24 908-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'ftpClientManager'
+2016-07-08 18:11:24 954-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.store.FtpClientManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.host
+2016-07-08 18:11:24 955-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.store.FtpClientManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.port
+2016-07-08 18:11:24 955-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.store.FtpClientManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.userName
+2016-07-08 18:11:24 955-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.store.FtpClientManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.password
+2016-07-08 18:11:24 956-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.store.FtpClientManager]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.ftpServerDir
+2016-07-08 18:11:24 956-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'ftpClientManager' to allow for resolving potential circular references
+2016-07-08 18:11:24 960-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'ftpClientManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.host
+2016-07-08 18:11:24 960-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.host' in [environmentProperties]
+2016-07-08 18:11:24 961-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.host' in [systemProperties]
+2016-07-08 18:11:24 961-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.host' in [systemEnvironment]
+2016-07-08 18:11:24 962-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.host' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 963-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.host' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'localhost'
+2016-07-08 18:11:24 963-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.host' in [environmentProperties] with type [String] and value 'localhost'
+2016-07-08 18:11:24 964-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'ftpClientManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.port
+2016-07-08 18:11:24 964-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.port' in [environmentProperties]
+2016-07-08 18:11:24 965-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.port' in [systemProperties]
+2016-07-08 18:11:24 965-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.port' in [systemEnvironment]
+2016-07-08 18:11:24 966-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.port' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 966-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.port' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '2221'
+2016-07-08 18:11:24 966-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.port' in [environmentProperties] with type [String] and value '2221'
+2016-07-08 18:11:24 967-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'ftpClientManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.userName
+2016-07-08 18:11:24 968-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.username' in [environmentProperties]
+2016-07-08 18:11:24 969-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.username' in [systemProperties]
+2016-07-08 18:11:24 969-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.username' in [systemEnvironment]
+2016-07-08 18:11:24 969-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.username' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 970-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.username' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'admin'
+2016-07-08 18:11:24 970-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.username' in [environmentProperties] with type [String] and value 'admin'
+2016-07-08 18:11:24 971-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'ftpClientManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.password
+2016-07-08 18:11:24 971-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.password' in [environmentProperties]
+2016-07-08 18:11:24 971-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.password' in [systemProperties]
+2016-07-08 18:11:24 972-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.password' in [systemEnvironment]
+2016-07-08 18:11:24 972-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.password' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 973-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.password' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '123456'
+2016-07-08 18:11:24 973-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.password' in [environmentProperties] with type [String] and value '123456'
+2016-07-08 18:11:24 974-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'ftpClientManager': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.store.FtpClientManager.ftpServerDir
+2016-07-08 18:11:24 974-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.rootdir' in [environmentProperties]
+2016-07-08 18:11:24 974-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.rootdir' in [systemProperties]
+2016-07-08 18:11:24 975-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.rootdir' in [systemEnvironment]
+2016-07-08 18:11:24 975-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.ftp.rootdir' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:24 976-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.rootdir' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '/fileshare'
+2016-07-08 18:11:24 976-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.ftp.rootdir' in [environmentProperties] with type [String] and value '/fileshare'
+2016-07-08 18:11:24 978-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'ftpClientManager'
+2016-07-08 18:11:24 978-[main]-[DEBUG]-[AutowiredAnnotationBeanPostProcessor.registerDependentBeans(AutowiredAnnotationBeanPostProcessor.java:427)]-Autowiring by type from bean name 'fileDealerProcessManager' to bean named 'ftpClientManager'
+2016-07-08 18:11:24 980-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:298)]-Invoking init method on bean 'fileDealerProcessManager': private void com.yealink.ims.fileshare.busi.FileDealerProcessManager.init()
+2016-07-08 18:11:24 980-[main]-[INFO ]-[FileDealerProcessManager.init(FileDealerProcessManager.java:84)]-init filedealer processmanager......
+2016-07-08 18:11:26 308-[main]-[INFO ]-[FileDealerProcessManager.init(FileDealerProcessManager.java:110)]-default save dir:e:/temp/
+2016-07-08 18:11:26 308-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileDealerProcessManager'
+2016-07-08 18:11:26 308-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareCacheManager'
+2016-07-08 18:11:26 308-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareCacheManager'
+2016-07-08 18:11:26 309-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:205)]-Found init method on class [com.yealink.ims.fileshare.cache.FileShareCacheManager]: private void com.yealink.ims.fileshare.cache.FileShareCacheManager.init()
+2016-07-08 18:11:26 311-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:213)]-Found destroy method on class [com.yealink.ims.fileshare.cache.FileShareCacheManager]: private void com.yealink.ims.fileshare.cache.FileShareCacheManager.destroy()
+2016-07-08 18:11:26 311-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.checkConfigMembers(InitDestroyAnnotationBeanPostProcessor.java:272)]-Registered init method on class [com.yealink.ims.fileshare.cache.FileShareCacheManager]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@356c7e3a
+2016-07-08 18:11:26 311-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.checkConfigMembers(InitDestroyAnnotationBeanPostProcessor.java:283)]-Registered destroy method on class [com.yealink.ims.fileshare.cache.FileShareCacheManager]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@e528fe90
+2016-07-08 18:11:26 320-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareCacheManager' to allow for resolving potential circular references
+2016-07-08 18:11:26 323-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:298)]-Invoking init method on bean 'fileShareCacheManager': private void com.yealink.ims.fileshare.cache.FileShareCacheManager.init()
+2016-07-08 18:11:26 323-[main]-[INFO ]-[FileShareCacheManager.init(FileShareCacheManager.java:36)]-FILE CACHE MANAGER INIT...
+2016-07-08 18:11:26 353-[main]-[DEBUG]-[ConfigurationFactory.parseConfiguration(ConfigurationFactory.java:73)]-Configuring ehcache from file: target\FileServer\config\ehcache.xml
+2016-07-08 18:11:26 353-[main]-[DEBUG]-[ConfigurationFactory.parseConfiguration(ConfigurationFactory.java:150)]-Configuring ehcache from InputStream
+2016-07-08 18:11:26 420-[main]-[DEBUG]-[BeanHandler.setAttribute(BeanHandler.java:271)]-Ignoring ehcache attribute xmlns:xsi
+2016-07-08 18:11:26 420-[main]-[DEBUG]-[BeanHandler.setAttribute(BeanHandler.java:271)]-Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-07-08 18:11:26 422-[main]-[DEBUG]-[DiskStoreConfiguration.translatePath(DiskStoreConfiguration.java:141)]-Disk Store Path: e:\cache
+2016-07-08 18:11:26 434-[main]-[DEBUG]-[CacheManager.newInstance(CacheManager.java:1115)]-Creating new CacheManager with config file: target\FileServer/config/ehcache.xml
+2016-07-08 18:11:26 436-[main]-[DEBUG]-[PropertyUtil.parseProperties(PropertyUtil.java:87)]-propertiesString is null.
+2016-07-08 18:11:26 444-[main]-[DEBUG]-[ConfigurationHelper.createCacheManagerEventListener(ConfigurationHelper.java:189)]-No CacheManagerEventListenerFactory class specified. Skipping...
+2016-07-08 18:11:26 637-[main]-[DEBUG]-[Cache.createBootstrapCacheLoader(Cache.java:1044)]-No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-07-08 18:11:26 638-[main]-[DEBUG]-[Cache.createCacheWriter(Cache.java:1017)]-CacheWriter factory not configured. Skipping...
+2016-07-08 18:11:26 638-[main]-[DEBUG]-[ConfigurationHelper.createCacheExceptionHandler(ConfigurationHelper.java:100)]-No CacheExceptionHandlerFactory class specified. Skipping...
+2016-07-08 18:11:26 651-[main]-[DEBUG]-[DiskStorePathManager.resolveAndLockIfNeeded(DiskStorePathManager.java:169)]-Using diskstore path e:\cache
+2016-07-08 18:11:26 651-[main]-[DEBUG]-[DiskStorePathManager.resolveAndLockIfNeeded(DiskStorePathManager.java:170)]-Holding exclusive lock on e:\cache\.ehcache-diskstore.lock
+2016-07-08 18:11:26 652-[main]-[DEBUG]-[DiskStorageFactory.deleteFile(DiskStorageFactory.java:838)]-Failed to delete file file%0049nfo%0043ache.data
+2016-07-08 18:11:26 652-[main]-[DEBUG]-[DiskStorageFactory.deleteFile(DiskStorageFactory.java:838)]-Failed to delete file file%0049nfo%0043ache.index
+2016-07-08 18:11:26 658-[main]-[DEBUG]-[DiskStorageFactory.<init>(DiskStorageFactory.java:170)]-Matching data file missing (or empty) for index file. Deleting index file e:\cache\file%0049nfo%0043ache.index
+2016-07-08 18:11:26 659-[main]-[DEBUG]-[DiskStorageFactory.deleteFile(DiskStorageFactory.java:838)]-Failed to delete file file%0049nfo%0043ache.index
+2016-07-08 18:11:26 708-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardPassThruStatistics(ExtendedStatisticsImpl.java:224)]-Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2016-07-08 18:11:26 709-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardPassThruStatistics(ExtendedStatisticsImpl.java:224)]-Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2016-07-08 18:11:26 710-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardPassThruStatistics(ExtendedStatisticsImpl.java:224)]-Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2016-07-08 18:11:26 710-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardPassThruStatistics(ExtendedStatisticsImpl.java:224)]-Mocking Pass-Through Statistic: REMOTE_SIZE
+2016-07-08 18:11:26 710-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardPassThruStatistics(ExtendedStatisticsImpl.java:224)]-Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2016-07-08 18:11:26 720-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: OFFHEAP_GET
+2016-07-08 18:11:26 721-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: OFFHEAP_PUT
+2016-07-08 18:11:26 721-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: OFFHEAP_REMOVE
+2016-07-08 18:11:26 723-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: XA_COMMIT
+2016-07-08 18:11:26 724-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: XA_ROLLBACK
+2016-07-08 18:11:26 724-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: XA_RECOVERY
+2016-07-08 18:11:26 725-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: CLUSTER_EVENT
+2016-07-08 18:11:26 725-[main]-[DEBUG]-[ExtendedStatisticsImpl.findStandardOperationStatistics(ExtendedStatisticsImpl.java:206)]-Mocking Operation Statistic: NONSTOP
+2016-07-08 18:11:26 731-[main]-[DEBUG]-[Cache.initialise(Cache.java:1262)]-Initialised cache: fileInfoCache
+2016-07-08 18:11:26 732-[main]-[DEBUG]-[ConfigurationHelper.createCacheDecorators(ConfigurationHelper.java:334)]-CacheDecoratorFactory not configured. Skipping for 'fileInfoCache'.
+2016-07-08 18:11:26 732-[main]-[DEBUG]-[ConfigurationHelper.createDefaultCacheDecorators(ConfigurationHelper.java:364)]-CacheDecoratorFactory not configured for defaultCache. Skipping for 'fileInfoCache'.
+2016-07-08 18:11:26 733-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareCacheManager'
+2016-07-08 18:11:26 733-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareNettyConfig'
+2016-07-08 18:11:26 733-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareNettyConfig'
+2016-07-08 18:11:26 734-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareNettyConfig' to allow for resolving potential circular references
+2016-07-08 18:11:26 736-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareNettyConfig'
+2016-07-08 18:11:26 737-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'FileShareChannelInit'
+2016-07-08 18:11:26 737-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'FileShareChannelInit'
+2016-07-08 18:11:26 739-[main]-[DEBUG]-[InternalLoggerFactory.debug(Slf4JLogger.java:71)]-Using SLF4J as the default logging framework
+2016-07-08 18:11:26 747-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'FileShareChannelInit' to allow for resolving potential circular references
+2016-07-08 18:11:26 751-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'FileShareChannelInit'
+2016-07-08 18:11:26 751-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareEventHandler'
+2016-07-08 18:11:26 751-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareEventHandler'
+2016-07-08 18:11:26 752-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareEventHandler' to allow for resolving potential circular references
+2016-07-08 18:11:26 753-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareEventHandler'
+2016-07-08 18:11:26 753-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileServerStartNotify'
+2016-07-08 18:11:26 753-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileServerStartNotify'
+2016-07-08 18:11:26 754-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileServerStartNotify' to allow for resolving potential circular references
+2016-07-08 18:11:26 755-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileServerStartNotify'
+2016-07-08 18:11:26 755-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileServerStopNotify'
+2016-07-08 18:11:26 755-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileServerStopNotify'
+2016-07-08 18:11:26 756-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileServerStopNotify' to allow for resolving potential circular references
+2016-07-08 18:11:26 757-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileServerStopNotify'
+2016-07-08 18:11:26 757-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareApplicationContextUtil'
+2016-07-08 18:11:26 757-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareApplicationContextUtil'
+2016-07-08 18:11:26 758-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareApplicationContextUtil' to allow for resolving potential circular references
+2016-07-08 18:11:26 759-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareApplicationContextUtil'
+2016-07-08 18:11:26 759-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileSystemService'
+2016-07-08 18:11:26 759-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileSystemService'
+2016-07-08 18:11:26 760-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.run.FileSystemService]: AutowiredFieldElement for private com.yealink.ims.fileshare.of.FileShareEventHandler com.yealink.ims.fileshare.run.FileSystemService.fileShareEventHandler
+2016-07-08 18:11:26 760-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.run.FileSystemService]: AutowiredFieldElement for private com.yealink.ims.fileshare.server.FileShareBootstrap com.yealink.ims.fileshare.run.FileSystemService.fileShareBootstrap
+2016-07-08 18:11:26 760-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.run.FileSystemService]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.fsJid
+2016-07-08 18:11:26 760-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.run.FileSystemService]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.host
+2016-07-08 18:11:26 760-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.run.FileSystemService]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.port
+2016-07-08 18:11:26 761-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileSystemService' to allow for resolving potential circular references
+2016-07-08 18:11:26 762-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileSystemService': AutowiredFieldElement for private com.yealink.ims.fileshare.of.FileShareEventHandler com.yealink.ims.fileshare.run.FileSystemService.fileShareEventHandler
+2016-07-08 18:11:26 763-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileShareEventHandler'
+2016-07-08 18:11:26 763-[main]-[DEBUG]-[AutowiredAnnotationBeanPostProcessor.registerDependentBeans(AutowiredAnnotationBeanPostProcessor.java:427)]-Autowiring by type from bean name 'fileSystemService' to bean named 'fileShareEventHandler'
+2016-07-08 18:11:26 763-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileSystemService': AutowiredFieldElement for private com.yealink.ims.fileshare.server.FileShareBootstrap com.yealink.ims.fileshare.run.FileSystemService.fileShareBootstrap
+2016-07-08 18:11:26 763-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareBootstrap'
+2016-07-08 18:11:26 763-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareBootstrap'
+2016-07-08 18:11:26 797-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareBootstrap]: ResourceElement for private io.netty.channel.ChannelInitializer com.yealink.ims.fileshare.server.FileShareBootstrap.fileShareChannelInit
+2016-07-08 18:11:26 797-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareBootstrap]: ResourceElement for private io.netty.channel.EventLoopGroup com.yealink.ims.fileshare.server.FileShareBootstrap.boss
+2016-07-08 18:11:26 797-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareBootstrap]: ResourceElement for private io.netty.channel.EventLoopGroup com.yealink.ims.fileshare.server.FileShareBootstrap.worker
+2016-07-08 18:11:26 798-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareBootstrap]: AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap com.yealink.ims.fileshare.server.FileShareBootstrap.serverBootstrap
+2016-07-08 18:11:26 798-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareBootstrap]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.server.FileShareBootstrap.servicePort
+2016-07-08 18:11:26 798-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareBootstrap' to allow for resolving potential circular references
+2016-07-08 18:11:26 799-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareBootstrap': ResourceElement for private io.netty.channel.ChannelInitializer com.yealink.ims.fileshare.server.FileShareBootstrap.fileShareChannelInit
+2016-07-08 18:11:26 800-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'FileShareChannelInit'
+2016-07-08 18:11:26 800-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareBootstrap': ResourceElement for private io.netty.channel.EventLoopGroup com.yealink.ims.fileshare.server.FileShareBootstrap.boss
+2016-07-08 18:11:26 800-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'boss'
+2016-07-08 18:11:26 800-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'boss'
+2016-07-08 18:11:26 800-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileShareNettyConfig'
+2016-07-08 18:11:26 815-[main]-[DEBUG]-[MultithreadEventLoopGroup.debug(Slf4JLogger.java:76)]--Dio.netty.eventLoopThreads: 8
+2016-07-08 18:11:26 839-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Buffer.address: available
+2016-07-08 18:11:26 839-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe.theUnsafe: available
+2016-07-08 18:11:26 840-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:71)]-sun.misc.Unsafe.copyMemory: available
+2016-07-08 18:11:26 840-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Bits.unaligned: true
+2016-07-08 18:11:26 841-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Platform: Windows
+2016-07-08 18:11:26 842-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-Java version: 7
+2016-07-08 18:11:26 842-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noUnsafe: false
+2016-07-08 18:11:26 842-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe: available
+2016-07-08 18:11:26 843-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noJavassist: false
+2016-07-08 18:11:27 188-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Javassist: available
+2016-07-08 18:11:27 189-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.tmpdir: C:\Users\yl1179\AppData\Local\Temp (java.io.tmpdir)
+2016-07-08 18:11:27 189-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-07-08 18:11:27 189-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noPreferDirect: false
+2016-07-08 18:11:27 203-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.noKeySetOptimization: false
+2016-07-08 18:11:27 203-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.selectorAutoRebuildThreshold: 512
+2016-07-08 18:11:27 229-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'boss' to allow for resolving potential circular references
+2016-07-08 18:11:27 236-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'boss'
+2016-07-08 18:11:27 237-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareBootstrap': ResourceElement for private io.netty.channel.EventLoopGroup com.yealink.ims.fileshare.server.FileShareBootstrap.worker
+2016-07-08 18:11:27 237-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'tcpWorker'
+2016-07-08 18:11:27 237-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'tcpWorker'
+2016-07-08 18:11:27 237-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileShareNettyConfig'
+2016-07-08 18:11:27 248-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'tcpWorker' to allow for resolving potential circular references
+2016-07-08 18:11:27 249-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'tcpWorker'
+2016-07-08 18:11:27 249-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareBootstrap': AutowiredFieldElement for private io.netty.bootstrap.ServerBootstrap com.yealink.ims.fileshare.server.FileShareBootstrap.serverBootstrap
+2016-07-08 18:11:27 249-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'serverBootstrap'
+2016-07-08 18:11:27 249-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileShareNettyConfig'
+2016-07-08 18:11:27 284-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'serverBootstrap'
+2016-07-08 18:11:27 284-[main]-[DEBUG]-[AutowiredAnnotationBeanPostProcessor.registerDependentBeans(AutowiredAnnotationBeanPostProcessor.java:427)]-Autowiring by type from bean name 'fileShareBootstrap' to bean named 'serverBootstrap'
+2016-07-08 18:11:27 284-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareBootstrap': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.server.FileShareBootstrap.servicePort
+2016-07-08 18:11:27 284-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [environmentProperties]
+2016-07-08 18:11:27 284-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [systemProperties]
+2016-07-08 18:11:27 285-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [systemEnvironment]
+2016-07-08 18:11:27 285-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:27 285-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.port' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '3333'
+2016-07-08 18:11:27 285-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.port' in [environmentProperties] with type [String] and value '3333'
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareBootstrap'
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[AutowiredAnnotationBeanPostProcessor.registerDependentBeans(AutowiredAnnotationBeanPostProcessor.java:427)]-Autowiring by type from bean name 'fileSystemService' to bean named 'fileShareBootstrap'
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileSystemService': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.fsJid
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.jid' in [environmentProperties]
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.jid' in [systemProperties]
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.jid' in [systemEnvironment]
+2016-07-08 18:11:27 286-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.jid' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:27 287-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.jid' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'fs1.yealink.com'
+2016-07-08 18:11:27 287-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.jid' in [environmentProperties] with type [String] and value 'fs1.yealink.com'
+2016-07-08 18:11:27 287-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileSystemService': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.host
+2016-07-08 18:11:27 287-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.host' in [environmentProperties]
+2016-07-08 18:11:27 287-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.host' in [systemProperties]
+2016-07-08 18:11:27 288-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.host' in [systemEnvironment]
+2016-07-08 18:11:27 288-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.host' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:27 288-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.host' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '10.3.17.173'
+2016-07-08 18:11:27 289-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.host' in [environmentProperties] with type [String] and value '10.3.17.173'
+2016-07-08 18:11:27 289-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileSystemService': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.run.FileSystemService.port
+2016-07-08 18:11:27 289-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [environmentProperties]
+2016-07-08 18:11:27 289-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [systemProperties]
+2016-07-08 18:11:27 290-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [systemEnvironment]
+2016-07-08 18:11:27 290-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.port' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:27 290-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.port' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value '3333'
+2016-07-08 18:11:27 290-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.port' in [environmentProperties] with type [String] and value '3333'
+2016-07-08 18:11:27 291-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileSystemService'
+2016-07-08 18:11:27 291-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileShareBootstrap'
+2016-07-08 18:11:27 291-[main]-[DEBUG]-[DefaultListableBeanFactory.getSingleton(DefaultSingletonBeanRegistry.java:220)]-Creating shared instance of singleton bean 'fileShareRestServer'
+2016-07-08 18:11:27 291-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:449)]-Creating instance of bean 'fileShareRestServer'
+2016-07-08 18:11:27 293-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:205)]-Found init method on class [com.yealink.ims.fileshare.server.FileShareRestServer]: private void com.yealink.ims.fileshare.server.FileShareRestServer.init()
+2016-07-08 18:11:27 293-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:213)]-Found destroy method on class [com.yealink.ims.fileshare.server.FileShareRestServer]: private void com.yealink.ims.fileshare.server.FileShareRestServer.destroy()
+2016-07-08 18:11:27 293-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.checkConfigMembers(InitDestroyAnnotationBeanPostProcessor.java:272)]-Registered init method on class [com.yealink.ims.fileshare.server.FileShareRestServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@235e4471
+2016-07-08 18:11:27 293-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.checkConfigMembers(InitDestroyAnnotationBeanPostProcessor.java:283)]-Registered destroy method on class [com.yealink.ims.fileshare.server.FileShareRestServer]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@bfb278f9
+2016-07-08 18:11:27 293-[main]-[DEBUG]-[InjectionMetadata.checkConfigMembers(InjectionMetadata.java:71)]-Registered injected element on class [com.yealink.ims.fileshare.server.FileShareRestServer]: AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.server.FileShareRestServer.servicePort
+2016-07-08 18:11:27 294-[main]-[DEBUG]-[DefaultListableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)]-Eagerly caching bean 'fileShareRestServer' to allow for resolving potential circular references
+2016-07-08 18:11:27 295-[main]-[DEBUG]-[InjectionMetadata.inject(InjectionMetadata.java:85)]-Processing injected method of bean 'fileShareRestServer': AutowiredFieldElement for private java.lang.String com.yealink.ims.fileshare.server.FileShareRestServer.servicePort
+2016-07-08 18:11:27 297-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.rest.service.uri' in [environmentProperties]
+2016-07-08 18:11:27 298-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.rest.service.uri' in [systemProperties]
+2016-07-08 18:11:27 298-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.rest.service.uri' in [systemEnvironment]
+2016-07-08 18:11:27 302-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'fs.rest.service.uri' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:27 302-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.rest.service.uri' in [URL [file:target/FileServer/config/application.properties]] with type [String] and value 'http://localhost:8080/fileServer/'
+2016-07-08 18:11:27 302-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]-Found key 'fs.rest.service.uri' in [environmentProperties] with type [String] and value 'http://localhost:8080/fileServer/'
+2016-07-08 18:11:27 303-[main]-[DEBUG]-[CommonAnnotationBeanPostProcessor.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:298)]-Invoking init method on bean 'fileShareRestServer': private void com.yealink.ims.fileshare.server.FileShareRestServer.init()
+2016-07-08 18:11:28 467-[main]-[INFO ]-[FileShareRestServer.init(FileShareRestServer.java:39)]-FileServer Restful Service started.
+Try out http://localhost:8080/fileServer/monitor
+
+2016-07-08 18:11:28 468-[main]-[DEBUG]-[DefaultListableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)]-Finished creating instance of bean 'fileShareRestServer'
+2016-07-08 18:11:28 468-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'ftpClientManager'
+2016-07-08 18:11:28 468-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'boss'
+2016-07-08 18:11:28 468-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'tcpWorker'
+2016-07-08 18:11:28 468-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2016-07-08 18:11:28 481-[main]-[DEBUG]-[AnnotationConfigApplicationContext.initLifecycleProcessor(AbstractApplicationContext.java:700)]-Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@359fe30c]
+2016-07-08 18:11:28 481-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileSystemService'
+2016-07-08 18:11:28 481-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-08 18:11:28 483-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileServerStartNotify'
+2016-07-08 18:11:28 484-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-08 18:11:28 485-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-08 18:11:28 485-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]-Searching for key 'spring.liveBeansView.mbeanDomain' in [URL [file:target/FileServer/config/application.properties]]
+2016-07-08 18:11:28 485-[main]-[DEBUG]-[PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:103)]-Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-08 18:11:28 485-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileSystemService'
+2016-07-08 18:11:28 485-[main]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-08 18:11:28 487-[main]-[INFO ]-[DefaultLifecycleProcessor.start(DefaultLifecycleProcessor.java:341)]-Starting beans in phase 0
+2016-07-08 18:11:28 487-[main]-[DEBUG]-[DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:170)]-Starting bean 'fileSystemService' of type [class com.yealink.ims.fileshare.run.FileSystemService]
+2016-07-08 18:11:28 487-[main]-[INFO ]-[FileSystemService.start(FileSystemService.java:40)]-FileSystemService start
+2016-07-08 18:11:28 488-[pool-3-thread-1]-[INFO ]-[FileShareBootstrap.run(FileShareBootstrap.java:51)]-设置serverbootstrap
+2016-07-08 18:11:28 507-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numHeapArenas: 8
+2016-07-08 18:11:28 507-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numDirectArenas: 8
+2016-07-08 18:11:28 507-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.pageSize: 8192
+2016-07-08 18:11:28 507-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxOrder: 11
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.chunkSize: 16777216
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.tinyCacheSize: 512
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.smallCacheSize: 256
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.normalCacheSize: 64
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-07-08 18:11:28 508-[pool-3-thread-1]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.cacheTrimInterval: 8192
+2016-07-08 18:11:28 518-[pool-3-thread-1]-[INFO ]-[FileShareBootstrap.run(FileShareBootstrap.java:66)]-启动文件处理线程
+2016-07-08 18:11:28 519-[Thread-4]-[INFO ]-[FileDealerProcess.run(FileDealerProcess.java:45)]-file deal process thread start...
+2016-07-08 18:11:28 527-[pool-3-thread-1]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.processId: 1352 (auto-detected)
+2016-07-08 18:11:28 561-[pool-3-thread-1]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:86)]-Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2016-07-08 18:11:28 562-[pool-3-thread-1]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:81)]-\proc\sys\net\core\somaxconn: 200 (non-existent)
+2016-07-08 18:11:28 602-[pool-3-thread-1]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.machineId: 40:8d:5c:ff:fe:a6:15:e8 (auto-detected)
+2016-07-08 18:11:28 602-[pool-3-thread-1]-[DEBUG]-[ThreadLocalRandom.debug(Slf4JLogger.java:71)]--Dio.netty.initialSeedUniquifier: 0xf6a5092fe3c86251 (took 1 ms)
+2016-07-08 18:11:28 614-[pool-3-thread-1]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.level: simple
+2016-07-08 18:11:28 614-[pool-3-thread-1]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.maxRecords: 4
+2016-07-08 18:11:28 624-[pool-3-thread-1]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.type: pooled
+2016-07-08 18:11:28 624-[pool-3-thread-1]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.threadLocalDirectBufferSize: 65536
+2016-07-08 18:11:28 624-[pool-3-thread-1]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-07-08 18:11:28 638-[nioEventLoopGroup-2-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0x3c1684b8] REGISTERED
+2016-07-08 18:11:28 640-[nioEventLoopGroup-2-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0x3c1684b8] BIND: 0.0.0.0/0.0.0.0:3333
+2016-07-08 18:11:28 642-[pool-3-thread-1]-[INFO ]-[FileShareBootstrap.run(FileShareBootstrap.java:74)]-listen port:3333
+2016-07-08 18:11:28 642-[pool-3-thread-1]-[INFO ]-[FileShareBootstrap.run(FileShareBootstrap.java:77)]-等待TCP over...
+2016-07-08 18:11:28 643-[nioEventLoopGroup-2-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0x3c1684b8, L:/0:0:0:0:0:0:0:0:3333] ACTIVE
+2016-07-08 18:11:29 721-[main]-[DEBUG]-[TaskRunnerFactory.init(TaskRunnerFactory.java:92)]-Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@41550ef[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+2016-07-08 18:11:29 722-[main]-[DEBUG]-[FailoverTransport.reconnect(FailoverTransport.java:795)]-Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+2016-07-08 18:11:29 839-[main]-[DEBUG]-[FailoverTransport.start(FailoverTransport.java:352)]-Started unconnected
+2016-07-08 18:11:29 839-[main]-[DEBUG]-[FailoverTransport.reconnect(FailoverTransport.java:788)]-Waking up reconnect task
+2016-07-08 18:11:29 844-[ActiveMQ Task-1]-[DEBUG]-[FailoverTransport.getConnectList(FailoverTransport.java:823)]-urlList connectionList:[tcp://10.3.17.148:61616], from: [tcp://10.3.17.148:61616]
+2016-07-08 18:11:29 916-[ActiveMQ Task-1]-[DEBUG]-[FailoverTransport.doReconnect(FailoverTransport.java:1034)]-Attempting  0th  connect to: tcp://10.3.17.148:61616
+2016-07-08 18:11:29 961-[ActiveMQ Task-1]-[DEBUG]-[WireFormatNegotiator.sendWireFormat(WireFormatNegotiator.java:82)]-Sending: WireFormatInfo { version=11, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+2016-07-08 18:11:29 963-[ActiveMQ Task-1]-[DEBUG]-[FailoverTransport.doReconnect(FailoverTransport.java:1044)]-Connection established
+2016-07-08 18:11:29 963-[ActiveMQ Task-1]-[INFO ]-[FailoverTransport.doReconnect(FailoverTransport.java:1075)]-Successfully connected to tcp://10.3.17.148:61616
+2016-07-08 18:11:29 964-[ActiveMQ Transport: tcp:///10.3.17.148:61616@56876]-[DEBUG]-[InactivityMonitor.configuredOk(InactivityMonitor.java:103)]-Using min of local: WireFormatInfo { version=11, properties={MaxFrameSize=9223372036854775807, CacheSize=1024, CacheEnabled=true, SizePrefixDisabled=false, MaxInactivityDurationInitalDelay=10000, TcpNoDelayEnabled=true, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=11, properties={CacheSize=1024, MaxFrameSize=104857600, CacheEnabled=true, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+2016-07-08 18:11:29 965-[ActiveMQ Transport: tcp:///10.3.17.148:61616@56876]-[DEBUG]-[WireFormatNegotiator.negociate(WireFormatNegotiator.java:130)]-Received WireFormat: WireFormatInfo { version=11, properties={CacheSize=1024, MaxFrameSize=104857600, CacheEnabled=true, SizePrefixDisabled=false, TcpNoDelayEnabled=true, MaxInactivityDurationInitalDelay=10000, MaxInactivityDuration=30000, TightEncodingEnabled=true, StackTraceEnabled=true}, magic=[A,c,t,i,v,e,M,Q]}
+2016-07-08 18:11:29 965-[ActiveMQ Transport: tcp:///10.3.17.148:61616@56876]-[DEBUG]-[WireFormatNegotiator.negociate(WireFormatNegotiator.java:137)]-tcp:///10.3.17.148:61616@56876 before negotiation: OpenWireFormat{version=11, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+2016-07-08 18:11:29 966-[ActiveMQ Transport: tcp:///10.3.17.148:61616@56876]-[DEBUG]-[WireFormatNegotiator.negociate(WireFormatNegotiator.java:152)]-tcp:///10.3.17.148:61616@56876 after negotiation: OpenWireFormat{version=11, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+2016-07-08 18:11:30 012-[main]-[DEBUG]-[TaskRunnerFactory.init(TaskRunnerFactory.java:92)]-Initialized TaskRunnerFactory[ActiveMQ Session Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@6985df6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+2016-07-08 18:11:30 014-[main]-[DEBUG]-[FileServerStateManager.fireFsNotify(FileServerStateManager.java:77)]-send fileserver message notify:10.3.17.173,true
+2016-07-08 18:11:30 027-[main]-[DEBUG]-[TransactionContext.begin(TransactionContext.java:250)]-Begin:TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:1
+2016-07-08 18:11:30 028-[main]-[DEBUG]-[ActiveMQSession.commit(ActiveMQSession.java:580)]-ID:yl1179-A01752pc-56875-1467972689726-1:1:2 Transaction Commit :TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:1
+2016-07-08 18:11:30 028-[main]-[DEBUG]-[TransactionContext.commit(TransactionContext.java:323)]-Commit: TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:1 syncCount: 0
+2016-07-08 18:11:30 124-[ActiveMQ Session Task-1]-[DEBUG]-[TransactionContext.begin(TransactionContext.java:250)]-Begin:TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:2
+2016-07-08 18:11:30 129-[main]-[DEBUG]-[DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:179)]-Successfully started bean 'fileSystemService'
+2016-07-08 18:11:30 129-[pool-6-thread-1]-[DEBUG]-[FileShareEventHandler.onEvent(FileShareEventHandler.java:31)]-Receiver of message:fs1.yealink.com,{port=3333, host=10.3.17.173, isRunning=true}
+2016-07-08 18:11:49 967-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:11:49 970-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:11:59 968-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:11:59 968-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:12:09 968-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:12:09 969-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:09 969-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:12:19 970-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:19 971-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:12:20 335-[grizzly-http-server-2]-[DEBUG]-[DefaultListableBeanFactory.doGetBean(AbstractBeanFactory.java:247)]-Returning cached instance of singleton bean 'fileSystemService'
+2016-07-08 18:12:20 335-[grizzly-http-server-2]-[DEBUG]-[FileServerMonitor.startFileTCPServer(FileServerMonitor.java:81)]-REST FOR STOP FILESERVER TCP.
+2016-07-08 18:12:20 336-[grizzly-http-server-2]-[DEBUG]-[FileServerStateManager.fireFsNotify(FileServerStateManager.java:77)]-send fileserver message notify:10.3.17.173,false
+2016-07-08 18:12:20 337-[grizzly-http-server-2]-[DEBUG]-[TransactionContext.begin(TransactionContext.java:250)]-Begin:TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:3
+2016-07-08 18:12:20 337-[grizzly-http-server-2]-[DEBUG]-[ActiveMQSession.commit(ActiveMQSession.java:580)]-ID:yl1179-A01752pc-56875-1467972689726-1:1:2 Transaction Commit :TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:3
+2016-07-08 18:12:20 338-[grizzly-http-server-2]-[DEBUG]-[TransactionContext.commit(TransactionContext.java:323)]-Commit: TX:ID:yl1179-A01752pc-56875-1467972689726-1:1:3 syncCount: 0
+2016-07-08 18:12:20 391-[grizzly-http-server-2]-[INFO ]-[FileSystemService.stop(FileSystemService.java:94)]-File Server stop......
+2016-07-08 18:12:29 971-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:39 970-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:12:39 972-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:39 972-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:12:49 973-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:49 973-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:12:59 974-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:12:59 974-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:01 625-[main]-[DEBUG]-[InternalLoggerFactory.debug(Slf4JLogger.java:71)]-Using SLF4J as the default logging framework
+2016-07-08 18:13:01 633-[main]-[DEBUG]-[MultithreadEventLoopGroup.debug(Slf4JLogger.java:76)]--Dio.netty.eventLoopThreads: 8
+2016-07-08 18:13:01 664-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Buffer.address: available
+2016-07-08 18:13:01 664-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe.theUnsafe: available
+2016-07-08 18:13:01 665-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:71)]-sun.misc.Unsafe.copyMemory: available
+2016-07-08 18:13:01 666-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Bits.unaligned: true
+2016-07-08 18:13:01 667-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Platform: Windows
+2016-07-08 18:13:01 668-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-Java version: 7
+2016-07-08 18:13:01 668-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noUnsafe: false
+2016-07-08 18:13:01 668-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe: available
+2016-07-08 18:13:01 669-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noJavassist: false
+2016-07-08 18:13:01 771-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Javassist: available
+2016-07-08 18:13:01 772-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.tmpdir: C:\Users\yl1179\AppData\Local\Temp (java.io.tmpdir)
+2016-07-08 18:13:01 773-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-07-08 18:13:01 773-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noPreferDirect: false
+2016-07-08 18:13:01 798-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.noKeySetOptimization: false
+2016-07-08 18:13:01 800-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.selectorAutoRebuildThreshold: 512
+2016-07-08 18:13:01 862-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.processId: 9124 (auto-detected)
+2016-07-08 18:13:01 934-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:86)]-Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2016-07-08 18:13:01 935-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:81)]-\proc\sys\net\core\somaxconn: 200 (non-existent)
+2016-07-08 18:13:01 987-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.machineId: 40:8d:5c:ff:fe:a6:15:e8 (auto-detected)
+2016-07-08 18:13:01 988-[main]-[DEBUG]-[ThreadLocalRandom.debug(Slf4JLogger.java:71)]--Dio.netty.initialSeedUniquifier: 0x03352e6832944102 (took 16 ms)
+2016-07-08 18:13:02 007-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.level: simple
+2016-07-08 18:13:02 007-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.maxRecords: 4
+2016-07-08 18:13:02 037-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numHeapArenas: 8
+2016-07-08 18:13:02 038-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numDirectArenas: 8
+2016-07-08 18:13:02 038-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.pageSize: 8192
+2016-07-08 18:13:02 038-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxOrder: 11
+2016-07-08 18:13:02 038-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.chunkSize: 16777216
+2016-07-08 18:13:02 039-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.tinyCacheSize: 512
+2016-07-08 18:13:02 039-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.smallCacheSize: 256
+2016-07-08 18:13:02 039-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.normalCacheSize: 64
+2016-07-08 18:13:02 039-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-07-08 18:13:02 039-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.cacheTrimInterval: 8192
+2016-07-08 18:13:02 049-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.type: pooled
+2016-07-08 18:13:02 050-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.threadLocalDirectBufferSize: 65536
+2016-07-08 18:13:02 050-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-07-08 18:13:02 083-[nioEventLoopGroup-2-1]-[DEBUG]-[AbstractByteBuf.debug(Slf4JLogger.java:81)]--Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-07-08 18:13:02 104-[nioEventLoopGroup-2-1]-[DEBUG]-[JavassistTypeParameterMatcherGenerator.debug(Slf4JLogger.java:76)]-Generated: io.netty.util.internal.__matchers__.java.net.InetSocketAddressMatcher
+2016-07-08 18:13:09 972-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:13:09 975-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:09 975-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:19 976-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:19 976-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:22 261-[main]-[DEBUG]-[InternalLoggerFactory.debug(Slf4JLogger.java:71)]-Using SLF4J as the default logging framework
+2016-07-08 18:13:22 268-[main]-[DEBUG]-[MultithreadEventLoopGroup.debug(Slf4JLogger.java:76)]--Dio.netty.eventLoopThreads: 8
+2016-07-08 18:13:22 291-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Buffer.address: available
+2016-07-08 18:13:22 292-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe.theUnsafe: available
+2016-07-08 18:13:22 292-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:71)]-sun.misc.Unsafe.copyMemory: available
+2016-07-08 18:13:22 293-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Bits.unaligned: true
+2016-07-08 18:13:22 296-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Platform: Windows
+2016-07-08 18:13:22 296-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-Java version: 7
+2016-07-08 18:13:22 297-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noUnsafe: false
+2016-07-08 18:13:22 297-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe: available
+2016-07-08 18:13:22 297-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noJavassist: false
+2016-07-08 18:13:22 399-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Javassist: available
+2016-07-08 18:13:22 400-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.tmpdir: C:\Users\yl1179\AppData\Local\Temp (java.io.tmpdir)
+2016-07-08 18:13:22 400-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-07-08 18:13:22 401-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noPreferDirect: false
+2016-07-08 18:13:22 424-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.noKeySetOptimization: false
+2016-07-08 18:13:22 426-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.selectorAutoRebuildThreshold: 512
+2016-07-08 18:13:22 493-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.processId: 3496 (auto-detected)
+2016-07-08 18:13:22 559-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:86)]-Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2016-07-08 18:13:22 560-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:81)]-\proc\sys\net\core\somaxconn: 200 (non-existent)
+2016-07-08 18:13:22 637-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.machineId: 40:8d:5c:ff:fe:a6:15:e8 (auto-detected)
+2016-07-08 18:13:22 638-[main]-[DEBUG]-[ThreadLocalRandom.debug(Slf4JLogger.java:71)]--Dio.netty.initialSeedUniquifier: 0xf8189e0f27871c60 (took 36 ms)
+2016-07-08 18:13:22 649-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.level: simple
+2016-07-08 18:13:22 649-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.maxRecords: 4
+2016-07-08 18:13:22 673-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numHeapArenas: 8
+2016-07-08 18:13:22 673-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numDirectArenas: 8
+2016-07-08 18:13:22 674-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.pageSize: 8192
+2016-07-08 18:13:22 674-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxOrder: 11
+2016-07-08 18:13:22 674-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.chunkSize: 16777216
+2016-07-08 18:13:22 674-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.tinyCacheSize: 512
+2016-07-08 18:13:22 674-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.smallCacheSize: 256
+2016-07-08 18:13:22 675-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.normalCacheSize: 64
+2016-07-08 18:13:22 675-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-07-08 18:13:22 675-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.cacheTrimInterval: 8192
+2016-07-08 18:13:22 688-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.type: pooled
+2016-07-08 18:13:22 689-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.threadLocalDirectBufferSize: 65536
+2016-07-08 18:13:22 689-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-07-08 18:13:22 728-[nioEventLoopGroup-2-1]-[DEBUG]-[AbstractByteBuf.debug(Slf4JLogger.java:81)]--Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-07-08 18:13:22 750-[nioEventLoopGroup-2-1]-[DEBUG]-[JavassistTypeParameterMatcherGenerator.debug(Slf4JLogger.java:76)]-Generated: io.netty.util.internal.__matchers__.java.net.InetSocketAddressMatcher
+2016-07-08 18:13:22 774-[nioEventLoopGroup-2-1]-[DEBUG]-[Recycler.debug(Slf4JLogger.java:76)]--Dio.netty.recycler.maxCapacity: 262144
+2016-07-08 18:13:22 776-[nioEventLoopGroup-2-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0x3c1684b8, L:/0:0:0:0:0:0:0:0:3333] RECEIVED: [id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951]
+2016-07-08 18:13:22 792-[nioEventLoopGroup-3-1]-[DEBUG]-[JavassistTypeParameterMatcherGenerator.debug(Slf4JLogger.java:76)]-Generated: io.netty.util.internal.__matchers__.com.yealink.ims.fileshare.event.FsMsgMatcher
+2016-07-08 18:13:22 796-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] REGISTERED
+2016-07-08 18:13:22 796-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] ACTIVE
+2016-07-08 18:13:22 805-[nioEventLoopGroup-3-1]-[DEBUG]-[Recycler.debug(Slf4JLogger.java:76)]--Dio.netty.recycler.maxCapacity: 262144
+2016-07-08 18:13:22 824-[nioEventLoopGroup-3-1]-[DEBUG]-[AbstractByteBuf.debug(Slf4JLogger.java:81)]--Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-07-08 18:13:22 843-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] RECEIVED: 44B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 10 02 00 28 66 66 34 36 63 30 37 32 65 62 39 39 |...(ff46c072eb99|
+|00000010| 37 64 64 37 35 34 66 30 37 32 30 63 61 61 30 37 |7dd754f0720caa07|
+|00000020| 36 34 39 35 63 65 62 39 65 66 30 61             |6495ceb9ef0a    |
++--------+-------------------------------------------------+----------------+
+2016-07-08 18:13:22 846-[nioEventLoopGroup-3-1]-[DEBUG]-[FileShareInboundHandler.channelRead(FileShareInboundHandler.java:47)]-收到命令...4098
+2016-07-08 18:13:22 846-[Thread-4]-[DEBUG]-[FileDealerProcess.run(FileDealerProcess.java:71)]-com.yealink.ims.fileshare.busi.AuthDealer@5ee5fa79=======start deal the file cmd:4098
+2016-07-08 18:13:22 846-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] FLUSH
+2016-07-08 18:13:22 848-[Thread-4]-[ERROR]-[FileDealerProcess.run(FileDealerProcess.java:84)]-file deal process exception
+java.util.concurrent.RejectedExecutionException: Task com.yealink.ims.fileshare.busi.FileDealerProcess$1@367e9498 rejected from java.util.concurrent.ThreadPoolExecutor@304da31b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2048)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:821)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1372)
+	at com.yealink.ims.fileshare.busi.FileDealerProcess.run(FileDealerProcess.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:13:29 977-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:29 977-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:39 974-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:13:39 978-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:39 978-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:49 979-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:49 979-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:13:56 447-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] FLUSH
+2016-07-08 18:13:56 448-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:121)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:384)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1098)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:112)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:544)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:399)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:371)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:742)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:145)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:13:56 449-[nioEventLoopGroup-3-1]-[ERROR]-[FileShareInboundHandler.exceptionCaught(FileShareInboundHandler.java:68)]-file share inbound handler error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:384)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1098)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:112)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:544)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:399)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:371)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:742)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:145)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:13:56 451-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 - R:/127.0.0.1:56951] CLOSE
+2016-07-08 18:13:56 453-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 ! R:/127.0.0.1:56951] INACTIVE
+2016-07-08 18:13:56 462-[nioEventLoopGroup-3-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xcde2ec9b, L:/127.0.0.1:3333 ! R:/127.0.0.1:56951] UNREGISTERED
+2016-07-08 18:13:59 980-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:13:59 980-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:09 976-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:14:09 981-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:09 981-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:19 982-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:19 983-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:29 983-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:29 983-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:39 978-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:14:39 984-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:39 984-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:49 985-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:49 985-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:14:53 741-[main]-[DEBUG]-[InternalLoggerFactory.debug(Slf4JLogger.java:71)]-Using SLF4J as the default logging framework
+2016-07-08 18:14:53 750-[main]-[DEBUG]-[MultithreadEventLoopGroup.debug(Slf4JLogger.java:76)]--Dio.netty.eventLoopThreads: 8
+2016-07-08 18:14:53 774-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Buffer.address: available
+2016-07-08 18:14:53 774-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe.theUnsafe: available
+2016-07-08 18:14:53 775-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:71)]-sun.misc.Unsafe.copyMemory: available
+2016-07-08 18:14:53 775-[main]-[DEBUG]-[PlatformDependent0.debug(Slf4JLogger.java:76)]-java.nio.Bits.unaligned: true
+2016-07-08 18:14:53 777-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Platform: Windows
+2016-07-08 18:14:53 778-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-Java version: 7
+2016-07-08 18:14:53 778-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noUnsafe: false
+2016-07-08 18:14:53 778-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]-sun.misc.Unsafe: available
+2016-07-08 18:14:53 779-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noJavassist: false
+2016-07-08 18:14:53 893-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:71)]-Javassist: available
+2016-07-08 18:14:53 893-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.tmpdir: C:\Users\yl1179\AppData\Local\Temp (java.io.tmpdir)
+2016-07-08 18:14:53 894-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-07-08 18:14:53 894-[main]-[DEBUG]-[PlatformDependent.debug(Slf4JLogger.java:76)]--Dio.netty.noPreferDirect: false
+2016-07-08 18:14:53 914-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.noKeySetOptimization: false
+2016-07-08 18:14:53 915-[main]-[DEBUG]-[NioEventLoop.debug(Slf4JLogger.java:76)]--Dio.netty.selectorAutoRebuildThreshold: 512
+2016-07-08 18:14:53 989-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.processId: 3540 (auto-detected)
+2016-07-08 18:14:54 051-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:86)]-Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2016-07-08 18:14:54 052-[main]-[DEBUG]-[NetUtil.debug(Slf4JLogger.java:81)]-\proc\sys\net\core\somaxconn: 200 (non-existent)
+2016-07-08 18:14:54 107-[main]-[DEBUG]-[DefaultChannelId.debug(Slf4JLogger.java:76)]--Dio.netty.machineId: 40:8d:5c:ff:fe:a6:15:e8 (auto-detected)
+2016-07-08 18:14:54 107-[main]-[DEBUG]-[ThreadLocalRandom.debug(Slf4JLogger.java:71)]--Dio.netty.initialSeedUniquifier: 0xf9dbdedb3be80757 (took 27 ms)
+2016-07-08 18:14:54 119-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.level: simple
+2016-07-08 18:14:54 120-[main]-[DEBUG]-[ResourceLeakDetector.debug(Slf4JLogger.java:81)]--Dio.netty.leakDetection.maxRecords: 4
+2016-07-08 18:14:54 148-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numHeapArenas: 8
+2016-07-08 18:14:54 148-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.numDirectArenas: 8
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.pageSize: 8192
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxOrder: 11
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.chunkSize: 16777216
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.tinyCacheSize: 512
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.smallCacheSize: 256
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.normalCacheSize: 64
+2016-07-08 18:14:54 149-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-07-08 18:14:54 150-[main]-[DEBUG]-[PooledByteBufAllocator.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.cacheTrimInterval: 8192
+2016-07-08 18:14:54 158-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.allocator.type: pooled
+2016-07-08 18:14:54 159-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.threadLocalDirectBufferSize: 65536
+2016-07-08 18:14:54 159-[main]-[DEBUG]-[ByteBufUtil.debug(Slf4JLogger.java:76)]--Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-07-08 18:14:54 190-[nioEventLoopGroup-2-1]-[DEBUG]-[AbstractByteBuf.debug(Slf4JLogger.java:81)]--Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-07-08 18:14:54 214-[nioEventLoopGroup-2-1]-[DEBUG]-[JavassistTypeParameterMatcherGenerator.debug(Slf4JLogger.java:76)]-Generated: io.netty.util.internal.__matchers__.java.net.InetSocketAddressMatcher
+2016-07-08 18:14:54 223-[nioEventLoopGroup-2-1]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0x3c1684b8, L:/0:0:0:0:0:0:0:0:3333] RECEIVED: [id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988]
+2016-07-08 18:14:54 225-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] REGISTERED
+2016-07-08 18:14:54 225-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] ACTIVE
+2016-07-08 18:14:54 234-[nioEventLoopGroup-2-1]-[DEBUG]-[Recycler.debug(Slf4JLogger.java:76)]--Dio.netty.recycler.maxCapacity: 262144
+2016-07-08 18:14:54 262-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] RECEIVED: 44B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 10 02 00 28 66 66 34 36 63 30 37 32 65 62 39 39 |...(ff46c072eb99|
+|00000010| 37 64 64 37 35 34 66 30 37 32 30 63 61 61 30 37 |7dd754f0720caa07|
+|00000020| 36 34 39 35 63 65 62 39 65 66 30 61             |6495ceb9ef0a    |
++--------+-------------------------------------------------+----------------+
+2016-07-08 18:14:54 263-[nioEventLoopGroup-3-2]-[DEBUG]-[FileShareInboundHandler.channelRead(FileShareInboundHandler.java:47)]-收到命令...4098
+2016-07-08 18:14:54 263-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] FLUSH
+2016-07-08 18:14:54 263-[Thread-4]-[DEBUG]-[FileDealerProcess.run(FileDealerProcess.java:71)]-com.yealink.ims.fileshare.busi.AuthDealer@5ee5fa79=======start deal the file cmd:4098
+2016-07-08 18:14:54 264-[Thread-4]-[ERROR]-[FileDealerProcess.run(FileDealerProcess.java:84)]-file deal process exception
+java.util.concurrent.RejectedExecutionException: Task com.yealink.ims.fileshare.busi.FileDealerProcess$1@6735e614 rejected from java.util.concurrent.ThreadPoolExecutor@304da31b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2048)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:821)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1372)
+	at com.yealink.ims.fileshare.busi.FileDealerProcess.run(FileDealerProcess.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:14:59 986-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:14:59 986-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:00 641-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] FLUSH
+2016-07-08 18:15:00 642-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:121)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:384)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1098)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:112)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:544)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:399)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:371)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:742)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:145)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:15:00 643-[nioEventLoopGroup-3-2]-[ERROR]-[FileShareInboundHandler.exceptionCaught(FileShareInboundHandler.java:68)]-file share inbound handler error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:384)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1098)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:112)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:544)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:399)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:371)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:742)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:145)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-08 18:15:00 645-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 - R:/127.0.0.1:56988] CLOSE
+2016-07-08 18:15:00 646-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 ! R:/127.0.0.1:56988] INACTIVE
+2016-07-08 18:15:00 646-[nioEventLoopGroup-3-2]-[INFO ]-[LoggingHandler.info(Slf4JLogger.java:101)]-[id: 0xaa4707cc, L:/127.0.0.1:3333 ! R:/127.0.0.1:56988] UNREGISTERED
+2016-07-08 18:15:09 980-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:15:09 987-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:09 987-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:19 988-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:19 988-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:29 989-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:29 989-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:39 982-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:15:39 990-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:39 990-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:49 991-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:49 991-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:15:59 992-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:15:59 992-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:09 984-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:16:09 993-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:09 993-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:19 994-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:19 994-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:29 995-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:29 995-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:39 986-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:16:39 996-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:39 996-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:49 997-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:49 997-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:16:59 998-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:16:59 998-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:17:09 988-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:17:09 999-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:17:09 999-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:17:20 000-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:17:20 000-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:17:30 001-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:17:30 001-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:17:39 990-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:17:40 002-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:17:40 002-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:17:50 003-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:17:50 003-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:18:00 004-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:18:00 005-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]
+2016-07-08 18:18:09 992-[ActiveMQ InactivityMonitor ReadCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:114)]-30002ms elapsed since last read check.
+2016-07-08 18:18:10 005-[ActiveMQ InactivityMonitor WriteCheckTimer]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:149)]-WriteChecker: 10001ms elapsed since last write check.
+2016-07-08 18:18:10 006-[ActiveMQ InactivityMonitor Worker]-[DEBUG]-[AbstractInactivityMonitor.run(AbstractInactivityMonitor.java:191)]-Running WriteCheck[tcp://10.3.17.148:61616]

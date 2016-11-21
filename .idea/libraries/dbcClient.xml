@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="dbcClient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-module-jaxb-annotations-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/geronimo-j2ee-management_1.1_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jersey-media-json-jackson-2.22.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/hawtbuf-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-jaxrs-base-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jersey-guava-2.22.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-databind-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/javax.inject-2.4.0-b34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/ws_client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/hk2-api-2.4.0-b34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/hk2-locator-2.4.0-b34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-annotations-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/sigar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/aopalliance-repackaged-2.4.0-b34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-jaxrs-json-provider-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/slf4j-log4j12-1.7.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/slf4j-api-1.7.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jersey-common-2.22.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jackson-core-2.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/hk2-utils-2.4.0-b34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jersey-entity-filtering-2.22.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jersey-client-2.22.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/activemq-client-5.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/jcl-over-slf4j-1.7.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/dbcClient/javax.annotation-api-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

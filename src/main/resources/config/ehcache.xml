@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" updateCheck="false"
+         monitoring="autodetect" dynamicConfig="true">
+    <diskStore path="e:\\cache" />
+
+    <cache name="fileInfoCache"
+           maxEntriesLocalHeap="1000"
+           maxEntriesLocalDisk="5000"
+           eternal="false"
+           diskSpoolBufferSizeMB="1024"
+           timeToIdleSeconds="18000"
+           timeToLiveSeconds="18000"
+           memoryStoreEvictionPolicy="LRU"
+           copyOnRead="true"
+           copyOnWrite="true"
+           transactionalMode="off">
+        <persistence strategy="localTempSwap" />
+    </cache>
+
+</ehcache>

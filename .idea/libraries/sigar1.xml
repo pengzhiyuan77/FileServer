@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sigar1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/FileServer/lib/sigar/sigar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
